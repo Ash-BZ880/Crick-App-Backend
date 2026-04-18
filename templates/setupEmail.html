@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body style="margin:0;padding:0;background:#f4f6f8;font-family:Arial,sans-serif;">
+
+<table width="100%" cellpadding="0" cellspacing="0" style="background:#f4f6f8;">
+<tr>
+<td align="center" style="padding:5px;">
+
+  <!-- CONTAINER -->
+  <table width="100%" cellpadding="0" cellspacing="0"
+         style="max-width:600px;width:100%;background:#ffffff;border-radius:8px;table-layout:fixed;">
+    
+    <!-- HEADER -->
+    <tr>
+      <td style="background:#2e7d32;color:#ffffff;text-align:center;padding:12px;font-size:18px;font-weight:bold;border-radius:8px 8px 0 0;">
+        Setup Completed
+      </td>
+    </tr>
+
+    <!-- CONTENT -->
+    <tr>
+      <td style="padding:30px 15px 15px 15px;font-size:14px;margin-top:20px">
+        <p style="margin:0 0 10px 0;">Dear {{firstName}},</p>
+        <p style="margin:0;">Your setup has been successfully completed.</p>
+      </td>
+    </tr>
+
+    <!-- TABLE WRAPPER -->
+    <tr>
+      <td style="padding:0 15px 20px 15px;">
+
+        <table width="100%" cellpadding="0" cellspacing="0"
+               style="border-collapse:collapse;width:100%;font-size:14px;table-layout:fixed;">
+          
+          <colgroup>
+            <col style="width:150px;"> <!-- Field column -->
+            <col style="width:400px;"> <!-- Value column -->
+          </colgroup>
+          
+          <!-- TITLE -->
+          <tr>
+            <td colspan="2" style="text-align:center;padding:8px;font-weight:bold;">
+              Crick-App Details
+            </td>
+          </tr>
+
+          <!-- ADMIN -->
+          <tr>
+            <td colspan="2" style="background:#c8e6c9;padding:8px;font-weight:bold;">
+              Admin Details
+            </td>
+          </tr>
+          <tr><td style="padding:8px;border:1px solid #ddd;">Name</td><td style="padding:8px;border:1px solid #ddd;">{{name}}</td></tr>
+          <tr><td style="padding:8px;border:1px solid #ddd;">Email</td><td style="padding:8px;border:1px solid #ddd;word-break:break-word;font-size:10px;">{{email}}</td></tr>
+          <tr><td style="padding:8px;border:1px solid #ddd;">Phone</td><td style="padding:8px;border:1px solid #ddd;">{{phone}}</td></tr>
+          <tr><td style="padding:8px;border:1px solid #ddd;">Address</td><td style="padding:8px;border:1px solid #ddd;word-break:break-word;">{{address}}</td></tr>
+
+          <!-- LEAGUE -->
+          <tr>
+            <td colspan="2" style="background:#c8e6c9;padding:8px;font-weight:bold;">
+              League Details
+            </td>
+          </tr>
+          <tr><td style="padding:8px;border:1px solid #ddd;">Name</td><td style="padding:8px;border:1px solid #ddd;">{{names}}</td></tr>
+          <tr><td style="padding:8px;border:1px solid #ddd;">Series</td><td style="padding:8px;border:1px solid #ddd;">{{series}}</td></tr>
+          <tr><td style="padding:8px;border:1px solid #ddd;">Type</td><td style="padding:8px;border:1px solid #ddd;">{{types}}</td></tr>
+
+          <!-- VENUE -->
+          <tr>
+            <td colspan="2" style="background:#c8e6c9;padding:8px;font-weight:bold;">
+              Venue Details
+            </td>
+          </tr>
+          <tr><td style="padding:8px;border:1px solid #ddd;">Stadium</td><td style="padding:8px;border:1px solid #ddd;">{{stadium}}</td></tr>
+          <tr><td style="padding:8px;border:1px solid #ddd;">Location</td><td style="padding:8px;border:1px solid #ddd;">{{location}}</td></tr>
+          <tr><td style="padding:8px;border:1px solid #ddd;">Country</td><td style="padding:8px;border:1px solid #ddd;">{{country}}</td></tr>
+
+        </table>
+
+      </td>
+    </tr>
+
+    <!-- FOOTER -->
+    <tr>
+      <td style="padding:15px;font-size:14px;">
+        <p style="margin:0 0 10px 0;">Thank you for completing the setup process.</p>
+        <p style="margin:0 0 10px 0;">Best Regards,<br/>CrickApp Team</p>
+        <hr style="border:none;border-top:1px solid #ddd;margin:10px 0;"/>
+        <p style="font-size:13px;margin:0;">
+          Email: crickapp880@gmail.com<br/>
+          Phone: 9322323582<br/>
+          Location: Baner, Pune
+        </p>
+      </td>
+    </tr>
+
+  </table>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>
